@@ -65,12 +65,14 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 .slider {
   height: 100%;
   width: 500%;
   display: flex;
+  transition: all .8s cubic-bezier(1,0,0,1);
 }
 
 .slide {
